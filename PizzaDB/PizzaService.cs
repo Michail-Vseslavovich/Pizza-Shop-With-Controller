@@ -1,4 +1,6 @@
-﻿namespace PizzaShopController
+﻿using PizzaShopController.models;
+
+namespace PizzaShopController
 {
     public static class PizzaService
     {

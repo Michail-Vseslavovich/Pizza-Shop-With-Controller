@@ -1,4 +1,4 @@
-﻿namespace PizzaShopController
+﻿namespace PizzaShopController.models
 {
     public class Pizza
     {

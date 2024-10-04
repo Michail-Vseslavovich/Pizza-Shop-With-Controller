@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PizzaShopController.models;
 
 
 
@@ -23,7 +25,7 @@ namespace PizzaShopController
 
             return pizza;
         }
-
+        [Authorize]
         [HttpPost]
         public ActionResult Post(Pizza pizza)
         {
